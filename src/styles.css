@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+* {
+  font-family: "PT Sans", "sans-serif";
+}
+
+body {
+  background-color: #efefef;
+}
+
+.main-content {
+  color: #333;
+}
+
+h1 h2 h3 h4 h5 {
+  font-family: "Monteserrat", sans-serif;
+  color: #333;
+}
