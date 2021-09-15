@@ -3,15 +3,25 @@ ul {
   width: 1200px;
   margin: 20px auto;
 }
+
 li {
   display: inline;
 }
+
 .tn {
   margin: 6px 6px;
   border: 4px solid #eee;
   box-shadow: #555 1px 1px 8px 1px;
   cursor: pointer;
+  transition: ease-out .15s;
 }
+
+.tn:hover {
+  z-index: 999;
+  transform: scale(1.5);
+}
+
+
 .modal-content {
   width: 1200px !important;
 }
