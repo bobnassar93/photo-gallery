@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class ImageFilterPipe implements PipeTransform {
 
-  transform(items: any[], criteria?: string): any {
+  transform(items: any[], criteria: string): any {
     console.log(criteria);
     if (criteria === 'all') {
       return items;
